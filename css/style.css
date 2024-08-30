@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(13,26,45);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+    color: rgb(129,152,181);
+    
+}
+.home{
+background-color: rgb(21,39,63);
+width: 50%;
+border-radius: 10px;
+padding: 20px 15px;
+margin: auto;
+
+}
+.home figure {
+    width: 95%;
+    margin: auto;
+    background-color: rgb(21,39,63);
+    color: #fff;
+    
+}
+.home figure img{
+    width: 100%;
+    border-radius: 7px;
+    margin-bottom: 15px;
+}
+.caption{
+    width: 95%;
+    margin: auto;
+    padding: 10px 0;
+}
+.icons{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid  rgb(129,152,181);
+    padding: 15px 0 20px 0;
+}
+.icons .first-icon{
+    
+    display: flex;
+    
+}
+.icons .first-icon span{
+    color:#00fff8 ;
+}
+.icons .first-icon p{
+    margin-left: 5px;
+}
+.foot{
+    width: 95%;
+    display: flex;
+    padding: 15px 0;
+    margin: auto;
+    align-items: center;
+}
+
+.foot img{
+    width: 50px;
+    margin-right: 10px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+
+.foot span{
+    color: #fff
+}
+.home figcaption:hover{
+    color: #00fff8;
+}
+.foot span:hover{
+    color:#00fff8;
+}
+@media screen and (max-width:481px){
+    .home{
+        width: 80%;
+    }
+}
+@media screen and (max-width:794px){
+    .home{
+        width: 70%;
+    }
+}
